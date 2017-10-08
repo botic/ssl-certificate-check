@@ -1,0 +1,17 @@
+{
+    "name": "ssl-certificate-check",
+    "version": "1.0.0",
+    "description": " Checks the expiration of SSL certificates and sends a notification if's is about to expire.",
+    "author": {
+      "name":  "Philipp Naderer-Puiu",
+      "web":   "https://naderer-puiu.at"
+    } ,
+    "dependencies": {
+      "poststempel": "0.1.x"
+    },
+    "engines": {
+      "ringojs": ">=1.1.0"
+    },
+    "main": "./main.js"
+  }
+  
